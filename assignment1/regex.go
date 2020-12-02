@@ -64,7 +64,7 @@ func verifyPassword(password string) error {
 }
 
 func main() {
-	password := "Mythu"
+	password := "suran"
 	err := verifyPassword(password)
 	fmt.Println(password, " ", err)
 }
